@@ -1,4 +1,6 @@
-# CypherXium                                                    (BY: ALI-Hassan : [My-LinkedIN](https://www.linkedin.com/in/ali-hassan-08b306226))
+# CypherXium
+
+## (BY: ALI-Hassan : [My-LinkedIN](https://www.linkedin.com/in/ali-hassan-08b306226))
 
 # React Landing Page and Sign-In/Sign-Up
 
@@ -21,6 +23,17 @@ This project is a React-based web application featuring a landing page and a sig
 - Styled Components
 - Framer Motion
 - Icon Libraries (e.g., `react-icons`)
+
+## YouTube Video Link
+
+[CypherXium-React-Project](https://youtu.be/-PhSF6iO-4g)
+
+## Pictures
+
+    ![LandingPage1](public/Cypher-4.jpeg)
+    ![LandingPage2](public/Cypher-3.jpeg)
+    ![SignIn](public/Cypher-1.jpeg)
+    ![SignUp](public/Cypher-2.jpeg)
 
 ## Getting Started
 
