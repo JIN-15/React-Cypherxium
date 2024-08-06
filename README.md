@@ -28,12 +28,16 @@ This project is a React-based web application featuring a landing page and a sig
 
 [CypherXium-React-Project](https://youtu.be/-PhSF6iO-4g)
 
+## Video Link
+
+[CypherXium-React-Project](assets/CypherXium-(Ali).mp4)
+
 ## Pictures
 
-    ![LandingPage1](public/Cypher-4.jpeg)
-    ![LandingPage2](public/Cypher-3.jpeg)
-    ![SignIn](public/Cypher-1.jpeg)
-    ![SignUp](public/Cypher-2.jpeg)
+   ![LandingPage1](assets/Cypher-4.jpeg)
+   ![LandingPage2](assets/Cypher-3.jpeg)
+   ![SignIn](assets/Cypher-1.jpeg)
+   ![SignUp](assets/Cypher-2.jpeg)
 
 ## Getting Started
 
