@@ -1,0 +1,213 @@
+.footer {
+    background-color: #2b063c;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Center and space out content on large screens
+    @media (min-width: 768px) {
+        .footer_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+
+            .footer_logo {
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+
+            .footer_links {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+
+                .footer_link {
+                    margin: 0 15px;
+                    font-size: 18px;
+                }
+            }
+
+            .footer_social {
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 20px;
+
+                .social_icon {
+                    margin: 0 15px;
+                }
+            }
+
+            .footer_newsletter {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 100%;
+                max-width: 600px;
+                margin-bottom: 20px;
+
+                h3 {
+                    margin-right: 20px;
+                    font-size: 20px;
+                }
+
+                .newsletter_form {
+                    display: flex;
+                    flex: 1;
+
+                    input {
+                        padding: 12px;
+                        border: none;
+                        border-radius: 5px;
+                        margin-right: 10px;
+                        flex: 1;
+                        max-width: 300px;
+                        box-sizing: border-box;
+                        font-size: 16px;
+                    }
+
+                    button {
+                        padding: 12px;
+                        border: none;
+                        background-color: #555;
+                        color: #fff;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-size: 16px;
+                        transition: background-color 0.3s ease-in-out;
+
+                        &:hover {
+                            background-color: #666;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .footer_bottom_left, .footer_bottom_right {
+            @media (min-width: 768px) {
+                flex: 1;
+            }
+        }
+    }
+
+    .footer_name {
+        margin-top: 20px;
+    }
+}
+
+a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove the underline */
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+a:hover {
+    color: #14da8f; /* Change color on hover if needed */
+}
+
+// Footer link hover effect
+.footer2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        transition: width 0.5s ease-in-out, bottom 0.5s ease-in-out 0.5s;
+    }
+
+    &:hover::after {
+        width: 100%;
+        bottom: 100%;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 0;
+        bottom: -1;
+        left: 105%;
+        background-color: rgb(255, 255, 255);
+        transition: height 0.3s ease-in-out 1s;
+    }
+
+    &:hover::before {
+        height: 90%;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #2b063c;
+    padding: 10px 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #a872a6;
+    color: #2b063c;
+    font-weight: 700;
+    scale: 1.1;
+}
+
+.btn_footer {
+    color: #2b063c;
+    background-color: #a872a6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.btn_footer:hover {
+    background-color: #8c4d8e; /* Slightly darker on hover */
+}
+
+.btn_footer:active {
+    transform: scale(0.95); /* Scale down on click */
+    background-color: #7c3a77; /* Optional: change color on click */
+}
